@@ -1,24 +1,27 @@
 {
-  "name": "angular-logger",
+  "name": "log4js",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pdorgambide/angular-logger.git"
+    "url": "https://github.com/log4js/log4js.git"
   },
   "authors": [
-    "pdorgambide"
+    "Benny Bottema (http://blog.projectnibble.org/)"
   ],
-  "main": [
-      "./src/logger.js"
-  ],
+  "main": "./dist/log4js.min.js",
   "dependencies": {
-    "angular": "*",
+    
+  },
+  "devDependencies": {
+    "better-logging-base": "1.0.0",
     "momentjs": "*",
     "sprintf": "*"
   },
   "keywords": [
-    "angular",
-    "logger"
+    "javascript",
+    "logger",
+    "logging",
+    "log4js"
   ],
   "license": "MIT",
   "ignore": [
@@ -26,8 +29,16 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "spec",
+    "debug",
+    "tmp",
+    "src",
+    "reports"
   ],
-  "devDependencies": {
-  }
+  "homepage": "https://github.com/log4js/log4js",
+  "description": "Robust javascript logging framework",
+  "moduleType": [
+    "globals"
+  ]
 }

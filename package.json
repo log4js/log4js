@@ -1,43 +1,46 @@
 {
-  "name": "angular-logger",
+  "name": "log4js",
   "version": "1.0.0",
-  "description": "> Enhanced $log in AngularJS",
-  "main": "index.js",
+  "description": "> Robust javascript logging framework",
+  "main": "log4js.min.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pdorgambide/angular-logger"
+    "url": "https://github.com/log4js/log4js"
   },
   "keywords": [
-    "angular",
+    "console",
     "logger",
-    "angular-logger",
-    "$log"
+    "logging"
   ],
   "author": {
     "name": "Benny Bottema",
     "url": "http://blog.projectnibble.org"
   },
-  "contributors": [{
-    "name": "Pablo Dorgambide",
-    "email": "pdorgambide@qualigy.com",
-    "url": "http://www.qualigy.com"
-  }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pdorgambide/angular-logger/issues"
+    "url": "https://github.com/log4js/log4js/issues"
   },
-  "homepage": "https://github.com/pdorgambide/angular-logger",
+  "homepage": "https://github.com/log4js/log4js",
   "devDependencies": {
-    "gulp": "^3.8.11",
     "del": "^1.2.0",
+    "lazypipe": "~0.2.3",
+    "browserify": "10.2.3",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0",
+    "gulp": "^3.8.11",
+    "gulp-load-plugins": "0.10.0",
+    "gulp-plumber": "1.0.1",
+    "gulp-jshint": "1.11.0",
+    "jshint-stylish": "2.0.0",
     "gulp-concat": "^2.5.2",
     "gulp-uglify": "^1.1.0",
     "gulp-jasmine": "~2.0.1",
     "gulp-coverage": "~0.3.35",
     "gulp-coveralls": "~0.1.4",
-    "lazypipe": "~0.2.3"
+    "gulp-size": "1.2.1",
+    "gulp-util": "3.0.5"
   }
 }
